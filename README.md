@@ -27,7 +27,12 @@ Assignment for [Lighthouse Labs.](https://www.lighthouselabs.ca/)<br /><br />
 - As a User I can log out from any page.
 - As a User I cannot sign up with an existing e-mail address (uniqueness validation).
 - Passwords are not stored as plain text in the database. Instead, has_secure_password is used in the User model, leveraging the bcrypt gem.<br/><br/>
-<img src="docs/Sign up.png" width="640" /><br /><br />
+
+<img src="docs/Sign up_validation message.png" width="640" />
+<sub><sup><sub><sup>Sign up form shows error messages if an empty field is present, if the email has already been used, if the password is shorter than 6 characters, and if the password and password confirmation don't match</sup></sub></sup></sub><br /><br />
+
+<img src="docs/Login.png" width="640" />
+<sub><sup><sub><sup>Login form shows error message if email or password is incorrect</sup></sub></sup></sub><br /><br />
 
 ### - Enhancement: Order Details Page<br />
 - The order page contains items, their image, name, description, quantities and line item totals.

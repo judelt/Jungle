@@ -5,6 +5,12 @@
   </header>
 
   <div class="row">
+  <% if @error %>
+  
+    <div> 
+    <p><%= @error %></p>
+    </div>
+  <% end %>
     <div class="col-sm-2 col-sm-offset-1">
       <%= form_for :user, url: '/login' do |form| %>
 

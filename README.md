@@ -45,7 +45,7 @@ Assignment for [Lighthouse Labs.](https://www.lighthouselabs.ca/)<br /><br />
 
 ### - Bug: Checking Out with Empty Cart<br />
 - When the cart is empty and the user goes to the carts#show page, instead of displaying the contents and a stripe checkout button, display a friendly message about how it is empty and link to the home page.<br/><br/>
-<img src="docs/Empty Cart.png" width="320" /><br /><br />
+<img src="docs/Empty Cart.png" width="640" /><br /><br />
 
 ### -Create Automated Tests with RSpec & Capybara<br /><br />
 

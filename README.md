@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 where new features need to be implemented.<br />
+A mini e-commerce application built with Rails 4.2 where new features needed to be implemented.<br />
 Assignment for [Lighthouse Labs.](https://www.lighthouselabs.ca/)<br /><br />
 
 
